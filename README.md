@@ -3,7 +3,12 @@
 [image1]: ./images/sample_dog_output.png "Sample Output"
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
-
+## Blog post explaining the Project
+link here : https://medium.com/@rayanxma/dog-breed-prediction-tool-84dc01839a35
+## Problem Introduction
+Animals have a lot of breeds and species and it is hard to memorize or know all of them, dogs do have many breeds with different features that makes the difference between them.
+In this project we are trying to build a tool that helps us classify dogs by the breed or predict breed of any dog image by using machine learning.
+And for fun, if you use human image the tool will predict the most resembling dog breed.
 
 ## Project Overview
 
@@ -102,15 +107,18 @@ jupyter notebook dog_app.ipynb
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
-## Evaluation
+## Examples
+![1_kTj3icd5ElcWAuKzhnKIrA](https://user-images.githubusercontent.com/93100711/152244261-1fd78727-3758-4122-9de4-5cc98d79778d.png)
 
-Your project will be reviewed by a Udacity reviewer against the CNN project [rubric](https://review.udacity.com/#!/rubrics/810/view).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
+![1_tNxCR8EyL0vyFxqvuitdzg](https://user-images.githubusercontent.com/93100711/152244331-5be5c1a4-5ee9-4806-87ca-4370dcab939b.png)
 
-## Project Submission
 
-When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
-- The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
-- An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
-- Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `dogImages/` or `lfw/` folders.  Likewise, please do not include the `bottleneck_features/` folder.__
+## Conclusion:
+In this project we wanted to create a dog breed classfier tool that predict dog breed and predict the resembling breed of a human using machine Learning
+We built a model from scratch and another model using transfer learning and compeared between them and then built our own model using transfer learning which scored around 73% accuracy and 0.70 f1 score
+And by that we satisfied our needs from this tool which is to have acceptable rate of accuracy .
 
-Alternatively, your submission could consist of the GitHub link to your repository.
+## Improvements:
+we can test other architectures to find more accurte models.
+we can try detecting multible dogs in an image and using multi-classfier to output multible breeds.
+we can train the model on providing more accuret resmbling breeds of humans.
